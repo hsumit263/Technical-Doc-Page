@@ -90,3 +90,34 @@ code {
     margin: 0;
     /* border: 1px solid black; */
 }
+
+@media screen and (max-width:768px) {
+   
+    #navbar{
+        border-left: 3px solid grey;
+        border-bottom: 3px solid grey;
+        position:absolute;
+        top:0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    main{
+        position: absolute;
+        top: 800px;
+        /* border: 2px solid black; */
+        
+    }
+
+    #main-doc{
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    pre,code{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+}
