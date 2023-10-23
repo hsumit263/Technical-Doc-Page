@@ -10,6 +10,10 @@
     width: 300px;
 }
 
+html,body{
+    scroll-behavior: smooth;
+}
+
 body{
     display: flex;
 }
